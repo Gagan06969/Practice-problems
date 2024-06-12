@@ -1,0 +1,61 @@
+<script>
+   /* function highorder(c){
+        return c()
+    }
+    function greet(){
+        return "Hello"
+    }
+    document.write(highorder(greet))
+    console.log(highorder(greet))
+    //let sum=(a,b)=>a+b
+    //console.log(sum(3,5))*/
+
+
+   /* var num=Number(prompt("Enter the Number="))
+    for ( let i=0;i<num;i++)
+    {
+        for (let j=0;j<i;j++);
+        {
+            console.log(`${i} Machali`)
+        }
+        for (let j=0;j<i;j++)
+        {
+            console.log(`${i}Pani mein gayi`)
+        }
+        for (let j=0;j<i;j++)
+        {
+            console.log(`${i}Chapayk`)
+        }
+    }*/
+
+    
+    
+    
+    // program to find the factorial of a number
+function factorial(x) {
+
+// if number is 0
+if (x == 0) {
+    return 1;
+}
+
+// if number is positive
+else {
+    return x * factorial(x - 1);
+}
+}
+
+// take input from the user
+const num = prompt('Enter a positive number: ');
+
+// calling factorial() if num is positive
+if (num >= 0) {
+const result = factorial(num);
+console.log(`The factorial of ${num} is ${result}`);
+}
+else {
+console.log('Enter a positive number.');
+}
+
+
+</script>
